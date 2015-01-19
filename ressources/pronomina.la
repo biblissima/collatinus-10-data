@@ -1,0 +1,41 @@
+!                pronomina.la
+!This file is part of COLLATINVS.
+!COLLATINVS is free software; you can redistribute it and/or modify
+!it under the terms of the GNU General Public License as published by
+!the Free Software Foundation; either version 2 of the License, or
+!(at your option) any later version.
+!
+!COLLATINVS is distributed in the hope that it will be useful,
+!but WITHOUT ANY WARRANTY; without even the implied warranty of
+!MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!GNU General Public License for more details.
+!
+!You should have received a copy of the GNU General Public License
+!along with COLLATINVS; if not, write to the Free Software
+!Foundation, Inc., 59 Temple Place, Suite 3inv, Boston, MA  02111-1307  USA
+! (c) © Yves Ouvrard, 2011 - 2014
+!
+aliquis|quis|ălĭ*
+aliqui|qui|ălĭ*
+ecquis|quis|ēc*
+egomet|ego|*mĕt
+idem|is|*dĕm
+nos|nos|*mĕt
+quicumque|qui|*cūmquĕ
+quicunque|qui|*cūmquĕ
+quidam|qui|*dăm
+quilibet|qui|*lĭbĕt
+quisnam|quis|*năm
+quispiam|quis|*pĭăm
+quisquam|quis|*quăm
+quisque|quis|*quĕ
+quisquis|quis|**
+quiuis|qui|*vĭs
+siquis|quis|sī*
+siqui|qui|sī*
+semet|se|*mĕt
+tute|tu|*tĕ
+tumet|tu|*mĕt
+tutemet|tute|*mĕt
+uterque|uter|*quĕ
+uosmet|uos|*mĕt

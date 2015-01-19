@@ -1,0 +1,99 @@
+!             mdlrad.la
+!
+!This file is part of COLLATINVS.
+!
+!COLLATINVS is free software; you can redistribute it and/or modify
+!it under the terms of the GNU General Public License as published by
+!the Free Software Foundation; either version 2 of the License, or
+!(at your option) any later version.
+!
+!COLLATINVS is distributed in the hope that it will be useful,
+!but WITHOUT ANY WARRANTY; without even the implied warranty of
+!MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+!GNU General Public License for more details.
+!
+!You should have received a copy of the GNU General Public License
+!along with COLLATINVS; if not, write to the Free Software
+!Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+! (c) © Yves Ouvrard, fév 2014
+!
+! GARDER L'ENCODAGE UTF-8 !
+! format :
+! "modèle de l'entrée"|"modèle du radical 0"|"modèle du radical 1, s'il existe"...
+! Pour les substantifs, il n'y a qu'un seul radical, celui du génitif
+! Pour les adjectifs, il y a 3 radicaux : génitif, comparatif et superlatif
+! Pour les verbes, il y en a 5 : infectum, perfectum, supin, participe présent et adjectif verbal.
+! Une exception pour sum qui n'a pas de supin, mais deux radicaux d'infectum (pour possum/potes et prosum/prodes)
+!
+! Vita
+0|0
+! Amicus
+1|1
+! Puer
+2|1
+! Ager et puer se déclinent comme amicus avec des nominatifs et vocatifs particuliers
+! Ager
+3|1
+! Templum
+4|4
+! Miles
+5|5
+! Civis
+6|6
+! Corpus
+7|7
+! Mare
+8|8
+! Manus
+9|9
+! Res
+10|10
+! Doctus
+11|11|11|11
+! Miser
+12|11|11|11
+! Miser et pulcher se déclinent comme doctus, aux nom. et voc. masc. sing. près
+! Pulcher
+13|11|11|11
+! Fortis
+14|14|11|11
+! Tous les comparatifs et superlatifs se construisent sur le modèle de doctus
+! Vetus
+15|15|11|11
+! Acer
+16|14|11|11
+! Amo
+17|17|17|17|17|17
+! Moneo
+18|18|17|17|17|17
+! Lego
+19|19|17|17|17|17
+! Capio
+20|20|17|17|17|17
+! Audio
+21|21|17|17|17|17
+! Sum
+22|22|17|22
+! Eo
+23|23|17|17|17|17
+! Imitor
+24|24|24|24|17|17
+! Vereor
+25|25|24|24|17|17
+! Sequor
+26|26|24|24|17|17
+! Patior
+27|27|24|24|17|17
+! Potior
+28|28|24|24|17|17
+! Fero
+33|33|17|17|17|17
+! IPSE
+34|34
+! Grecs
+100|100
+101|101
+102|102
+103|103
+104|104
+105|105

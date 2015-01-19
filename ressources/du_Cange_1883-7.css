@@ -1,0 +1,551 @@
+/* encoding="UTF-8" */
+
+a {
+	text-decoration:none;
+}
+a:hover {
+}
+
+/*	Dispositions spécifiques */
+#footer {
+	left:0;
+	right:0;
+	position:absolute;
+	bottom:0;
+}
+#header {
+	position:relative;
+	left:0;
+	right:0;
+	top:0;
+}
+#side {
+	float:left;
+	position:fixed;
+}
+/* Vue doc schema */
+body.fixed #side {
+	display:none;
+}
+body.noImage #side {
+	display:none;
+}
+#imageMontre {
+	display:none;
+}
+body.noImage #imageMontre {
+	display:inline;
+}
+body.noImage #imageCache {
+	display:none;
+}
+
+/* conteneur des documents ou des résultats de recherche */
+#container {
+	min-height:100%;
+}
+#article {
+	margin:0;
+	padding:0 2em 2em 360px;
+	box-sizing: content-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:100%;
+}
+body.noImage #article {
+				padding-left:2em;
+				margin-left:0;
+}
+body.fixed #article {
+	padding-left:360px;
+	margin-left:0;
+}
+body.fixed #nav {
+	width:328px;
+}
+#toolbar {
+	height:20px;
+	padding-right:2ex;
+	padding-left:330px;
+}
+#toolbar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 15px 0 0;
+}
+#toolbar li {
+    float: right;
+    line-height: 18px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 3px 0.5ex 1px;
+}
+#toolbar li a {
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 3px 20px 3px 5px;
+}
+#toolbar a {
+    border-bottom-color: transparent;
+    color: #000000;
+}
+body.noImage #toolbar {
+	padding-left:10px;
+}
+#ariane {
+	padding-left:360px;
+}
+body.noImage #ariane {
+	padding-left:10px;
+}
+body.fixed #ariane {
+	padding-left:330px;
+}
+
+#logo {
+	right:3ex;
+}
+#header address {
+	padding-left:3ex;
+	font-style:normal;
+}
+
+/* Un message entre les articles du glossaire français et du glossaire latin */
+.glossarium {
+	margin:3em 0 1em 0;
+	color:#315BA7;
+}
+.but {
+	border-bottom:1px solid #BBAA99;
+	border-right:1px solid #BBAA99;
+	padding:0 0.5ex;
+	text-decoration:none;
+	color:#000 !important;
+}
+/* article */
+.entry {
+	margin-top:1em;
+	margin-bottom:2em;
+	/* font-size:13px;*/
+	color:#333333;
+	padding: 0.5ex 0.5ex 0.7ex 0.5ex;
+	border:solid 1px #DDDDDD;
+}
+
+
+/* faire respirer le texte de l'article dans son cadre */
+.entry .text {
+	padding:2em;
+}
+div.dictScrap {
+	margin:1em 0 1em 0;
+}
+/* citations */
+blockquote {
+	color:#000000;
+	display:block;
+	text-indent:0;
+	padding-top:0.5ex;
+	padding-bottom:0.5ex;
+	padding-left:1ex;
+	padding-right:2em;
+	margin:1px 0 1px 7px;
+	border-left:2px solid #FFCCCC;
+	line-height:150%;
+	font-style:normal;
+	background:#FFFFFF;
+	line-height:150%;
+	text-align:justify;
+	/* font-size:14px;*/
+	/*
+	background:#FFF0F0;
+	border-top:solid 1px #FFCCCC;
+	border-bottom:solid 1px #FFCCCC;
+	padding-left:1.5ex;
+	*/
+}
+blockquote p {
+	margin:0;
+	text-indent:1em;
+}
+blockquote .note {
+	font-style:italic;
+}
+
+.entry_bibl, div.rights, .dictScrap_bibl {
+	/* font-size:11px;*/
+	font-family:Arial, sans-serif;
+	line-height:110%;
+	color:#808080;
+}
+
+/* copyright */
+div.rights {
+	text-align:center;
+	margin-bottom:-11px;
+	padding:0 5px 0 5px;
+}
+
+div.rights span.rights {
+	background-color:#FFF;
+}
+a.prev {
+	float:left;
+	background-color:#FFF;
+	color:#A73136;
+	border:none;
+	background-image:url("img/prev.png");
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding:1px 5px 1px 20px;
+}
+a.next {
+	float:right;
+	background-color:#FFF;
+	color:#A73136;
+	border:none;
+	background-image:url("img/next.png");
+	background-position:right center;
+	background-repeat:no-repeat;
+	padding:1px 20px 1px 5px;
+}
+/* ligne bibliographique en tête d'article, largeur max */
+.entry_bibl {
+	background:#E2DED0;
+	padding: 2px 2px 2px 3em;
+	min-height:31px;
+}
+/* largeur des liens précédent/suivant */
+td.prev, td.next {
+	width:20ex;
+}
+.entry_bibl a {
+	text-decoration:none;
+	color:#808080;
+	border:none;
+}
+
+.entry_bibl i {
+	color:#808080;
+}
+.entry_bibl b {
+	/* font-size:13px;*/
+	letter-spacing:1px;
+}
+
+/* indication biliographique en cours d'article, aligné à droite */
+div.dictScrap_bibl {
+	padding:0;
+	margin:0;
+	line-height:100%;
+	margin-right:-4.3ex;
+	text-align:right;
+
+}
+div.dictScrap_bibl span {
+	background:#e2ded0;
+	color:#5B5B5B;
+	padding: 0 1ex 0 1em;
+	-moz-border-radius-topleft:1ex;
+	-moz-border-radius-bottomleft:1ex;
+}
+
+
+/* puces */
+tt.square {
+	font-family:Verdana, "Trebuchet MS", sans-serif;
+	font-weight:900;
+	color:#A73136;
+	background:#FFFFFF;
+	padding:0 0.2ex 0 0.2ex;
+	line-height:90%;
+	margin-top:0.2ex;
+	/* font-size:14px;*/
+	/*
+	float:left;
+	margin-left:-1.4em;
+	background:#B45F65;
+	color:#C8A0A2;
+	line-height:50%;
+	font-size:70%;
+	padding-bottom:0.5ex;
+	border:#C8A0A2 2px solid;
+	color:#FFFFFF;
+	width:0.7ex;
+	height:0.7ex;
+	*/
+}
+/* l'adresse */
+a.form {
+	font-family:"Trebuchet MS", sans-serif;
+	background:#FFFFFF;
+	color:#A73136;
+	/* font-size:14px;*/
+	border:none;
+	/*
+	padding-left:0.5ex;
+	margin-left:-2em;
+	border-left:#CC9999 1px solid;
+	border-top:#CC9999 1px solid;
+	*/
+}
+.b {
+	font-weight:bold;
+}
+/* complément de vedette principale */
+a.b .seg {
+	font-weight:normal;
+	font-variant:small-caps;
+}
+/* complément de vedette de second niveau */
+.sc {
+	font-variant:small-caps;
+}
+.sc .seg {
+	font-style:italic;
+	font-variant:normal;
+}
+/* renvoi en italique */
+a.ref {
+	font-style:italic;
+}
+.i {
+	font-style:italic;
+}
+/**
+ * Résultats de recherche
+ */
+/* Le bloc de réponse de solr */
+.response {
+	padding:2em;
+}
+/* le formulaire (centré) */
+form.q {
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:2em;
+}
+form.q div.border {
+	padding:1ex 0;
+	text-align:center;
+	margin:0 auto;
+	width:540px;
+	border-color:#BA9;
+	border-width:1px;
+	border-left-style:solid;
+	border-right-style:solid;
+	color:#888;
+	background:#F5F5F5;
+	-moz-border-radius:1em;
+	-webkit-border-radius:1em:
+	border-radius:1em;
+}
+form.q label {
+	cursor:hand;
+	cursor:pointer;
+	color:#888;
+	padding:4px 5px 0px 0;
+}
+
+div.middle {
+	margin:0 auto 1ex auto;
+}
+
+
+input.input {
+	font-family:Arial, sans-serif;
+	width:340px;
+	border:3px solid #E2DED0;
+	border-left-width:2em;
+	border-right-width:1em;
+	color:#A73136;
+	background:#FFFFFF;
+	font-weight:bold;
+	/* font-size:16px;*/
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:2px 13px 2px 3px;
+	/*
+	border-radius:3px; fond gris avec Opera
+	*/
+}
+input.radio {
+
+}
+input.submit {
+	cursor:pointer;
+	margin-left:-2ex;
+}
+
+form.q label.checked {
+	color:#000;
+	font-weight:bold;
+}
+
+/* Résultat de recherche */
+div.doc {
+	padding:1ex 1em	2em 0;
+}
+
+
+/* un résultat */
+div.body {
+	margin:1em 1em 5em 1em;
+}
+ /* l'adresse */
+a.headword {
+	font-family:"Trebuchet MS", sans-serif;
+	background:#FFFFFF;
+	color:#A73136;
+	/* font-size:14px;*/
+	font-weight:bold;
+	border:none;
+	text-decoration:none;
+}
+/* les sous adresses */
+.form a {
+	font-variant:small-caps;
+	color:#A73136;
+	border:none;
+}
+/* les renvois */
+.ref a {
+	color:#297788;
+	border:none;
+}
+.snippet em {
+	font-weight:bold;
+	font-style:normal;
+}
+/* boutons + options de formulaire */
+span.plus label {
+	display:none;
+}
+span.minus label {
+	display:inline;
+}
+span.minus .but {
+	display:none;
+}
+
+div.result input,
+div.result select {
+	font-size:80%;
+}
+
+
+/* liens à l'image */
+.dictScrap a.cb,
+.entry a.cb {
+	float:left;
+	margin-left:-2em;
+}
+.entry_bibl a.cb {
+	margin-left:-2.7em;
+}
+.quote a.cb {
+	margin-left:-3em;
+}
+/* la colonne d'images */
+body.suggest,
+body.image {
+	background:#FFFFFF;
+	font-family:Arial, sans-serif;
+	/*
+	background-position: left;
+	background-image:url('degradeGD.png');
+	*/
+	background-position:right;
+	background-image:url('img/degradeDG.png');
+	background-repeat:repeat-y;
+	border-right:solid 1px #b3b3b3;
+	margin:0;
+	padding:60px 10px 0 10px;
+	line-height:13px;
+	/* font-size:12px;*/
+}
+body.suggest a {
+	color:#808080;
+	display:block;
+}
+body.suggest a:hover {
+	background:#FFFFFF;
+	color:#000000;
+}
+body.image #space_foot {
+	height:31px;
+}
+body.image .gc {
+	float:left;
+	position:absolute;
+	margin:3px;
+}
+body.image .dr {
+	margin:3px;
+	left:290px;
+	position:absolute;
+}
+body.image p.pagination {
+	position:absolute;
+	top:7px;
+	padding-left:1ex;
+	text-align:left;
+}
+p.pagination a {
+	color:#000;
+}
+
+/* navigation entre images */
+table.navimage {
+	margin:5px 0 5px 0;
+}
+/** articles latins du Glossarium avec le glossaire d'ancien français, cacher ce qui est en latin */
+.fro .dictScrap {
+	display:none;
+}
+
+.fro .p_fro {
+	display:block;
+}
+
+/* Entrée du glossaire français */
+div.glossaire {
+	margin:0.2ex 0;
+}
+div.glossaire .dictScrap {
+	display:block;
+	margin:0;
+}
+div.glossaire blockquote {
+	display:block;
+}
+/*Liste a puce pour le pied de page*/
+#logo_credit ul {
+	margin:0;
+	padding:20px 0 20px 0;
+}
+#logo_credit li {
+	display: inline;
+	padding: 0 8px 0 8px;
+	margin:0;
+}
+.figure {
+	color:#999;
+}
+a img {
+	border:none;
+}
+.num {
+	font-family:inherit;
+	line-height:100%;
+	font-variant:small-caps;
+}
+.num sup {
+	font-variant:normal;
+}
+.name,
+.author {
+	font-variant:small-caps;
+}
+
