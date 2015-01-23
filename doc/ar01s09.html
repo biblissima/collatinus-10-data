@@ -1,0 +1,1162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>9. Les données</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1187.37">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Times; color: #0000ee}
+    p.p4 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #0000ee}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Times}
+    li.li7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    span.s1 {text-decoration: underline}
+    span.s2 {color: #000000}
+    table.t1 {width: 769.0px}
+    table.t2 {border-style: solid; border-width: 3.0px 3.0px 3.0px 3.0px; border-color: #527bbd #527bbd #527bbd #527bbd; border-collapse: collapse}
+    td.td1 {width: 151.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 454.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 150.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 18.0px; border-style: solid; border-width: 0.0px 1.0px 1.0px 0.0px; border-color: #000000 #527bbd #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td5 {width: 52.0px; border-style: solid; border-width: 0.0px 1.0px 1.0px 0.0px; border-color: #000000 #527bbd #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td6 {width: 49.0px; border-style: solid; border-width: 0.0px 1.0px 1.0px 0.0px; border-color: #000000 #527bbd #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td7 {width: 45.0px; border-style: solid; border-width: 0.0px 1.0px 1.0px 0.0px; border-color: #000000 #527bbd #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td8 {width: 43.0px; border-style: solid; border-width: 0.0px 1.0px 1.0px 0.0px; border-color: #000000 #527bbd #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td9 {width: 50.0px; border-style: solid; border-width: 0.0px 1.0px 1.0px 0.0px; border-color: #000000 #527bbd #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td10 {width: 28.0px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #000000 #000000 #527bbd #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td11 {width: 18.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #000000 #527bbd #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td12 {width: 52.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #000000 #527bbd #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td13 {width: 49.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #000000 #527bbd #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td14 {width: 45.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #000000 #527bbd #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td15 {width: 43.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #000000 #527bbd #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td16 {width: 50.0px; border-style: solid; border-width: 0.0px 1.0px 0.0px 0.0px; border-color: #000000 #527bbd #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td17 {width: 28.0px; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td18 {width: 303.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td19 {width: 302.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<table width="769.0" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><span class="s1"><a href="file:///Users/Philippe/Downloads/doc%205/ar01s08.html">Précédent</a></span><span class="s2"> </span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><b> </b></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s2"> <a href="file:///Users/Philippe/Downloads/doc%205/ar01s10.html"><span class="s1">Suivant</span></a></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p4"><br></p>
+<h2 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 18.0px Times"><b>9. Les données</b></h2>
+<p class="p6">Les données morphologiques de Collatinus (désinences et formes irrégulières), naguère incluses aux fichiers lexicaux lemmata.??, sont maintenant dans les fichiers fichiers <i>desin.la</i>, <i>irregs.la</i>, <i>mdlrad.la</i> et <i>pronomina.la</i>.</p>
+<p class="p6">Les données lexicales sont dans le fichier <i>lemmata.la</i>. Les traductions sont dans les fichiers lemmata, chacun portant une extension correspondant à sa langue :</p>
+<ul class="ul1">
+  <li class="li7">lemmata.ca pour le catalan ;</li>
+  <li class="li7">lemmata.de pour l’allemand ;</li>
+  <li class="li7">lemmata.es pour l’espagnol ;</li>
+  <li class="li7">lemmata.fr pour le français ;</li>
+  <li class="li7">lemmata.gl pour le galicien ;</li>
+  <li class="li7">lemmata.it pour l’italien ;</li>
+  <li class="li7">lemmata.pt pour le portugais ;</li>
+  <li class="li7">lemmata.ro pour le roumain ;</li>
+  <li class="li7">lemmata.uk pour l’anglais.</li>
+</ul>
+<p class="p6">Le menu <i>Lexiques</i> permet de choisir la langue cible, et dans le même menu, l’option Calepino permet d’afficher la traduction d’un mot latin dans toutes les langues disponibles.</p>
+<p class="p6">La langue dans laquelle s’affichent les menu est également paramétrable par l’option Edition/langue/.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>9.1. Le fichier lemmata.la</b></h3>
+<p class="p6">est le dictionnaire proprement dit, et son format est très simple :</p>
+<p class="p6">format :</p>
+<p class="p9">forme_canonique[2][=fc_enièrement_mesurée]|n°modèle|radicaux parfait (entre virgules)|radicaux supin(virg.)|données morphologiques</p>
+<p class="p6">exemple :</p>
+<p class="p9">antĕĕo=āntĕĕo|23|āntĕĭ,āntĕīv|āntĕĭt|is, ire, ii, itum</p>
+<p class="p6">Les données morphologiques peuvent se terminer par <i>cf.</i> pour renvoyer à une autre entrée :</p>
+<p class="p9">advespĕresco=ādvēspĕrēsco|19|ādvēspĕrāv||cf. aduesperasco</p>
+<p class="p6">On peut inhiber la reconnaissance indésirable de la flexion en indiquant qu’un lemme est toujours pluriel :</p>
+<p class="p9">cĭbārĭa|4|||orum, n. pl.</p>
+<p class="p6">ou singulier :</p>
+<p class="p9">tū|29|||tui, sing.</p>
+<p class="p6">Pour le numéro de modèle, cf. les désinences dans le fichier <i>desin.la</i>.</p>
+<p class="p6">Le texte de l’entrée donne les données morphologiques (génitif, genre, temps primitifs). Les noms de la première et deuxième déclinaison et les verbes du modèle amo ne donnent pas leurs radicaux, qui sont calculés automatiquement. On peut cependant signaler des irrégularités :</p>
+<p class="p9">do|17|ded|dat|das, dare, dedi, datum</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>9.2. Les fichiers de traduction lemmata.*</b></h3>
+<p class="p6">Chaque ligne d’un fichier de traduction est constituée du mot latin sans ses quantités, pris dans lemmata.la, et de sa traduction dans la langue cible, séparés par le signe | :</p>
+<p class="p9">decido|tomber</p>
+<p class="p9">decido2|couper, trancher, régler</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>9.3. le fichier de désinences desin.la</b></h3>
+<p class="p6">Voici le format d’une désinence :</p>
+<p class="p9">désinence|cas|genre|nombre|degré|personne|temps|mode|voix|modèles entre virgules|numéro du radical|désinence mesurée</p>
+<p class="p6">exemple :</p>
+<p class="p9">am|3|0|1|0|0|0|0|0|0,100,101,102|1|ăm</p>
+<p class="p6">Et voici le référentiel de ces valeurs:</p>
+<table cellspacing="0" cellpadding="0" class="t2">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7"><b>n°</b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7"><b>modèle</b></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7"><b>modes</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7"><b>cas</b></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7"><b>temps</b></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7"><b>personnes</b></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p7"><b>degrés</b></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7"><b>nombres</b></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p7"><b>voix</b></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">0</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">uita</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">-</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">-</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">-</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">-</p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p7">-</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">-</p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p7">-</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">1</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">amicus</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">indicatif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">nominatif</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">présent</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">première</p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p7">positif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">singulier</p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p7">actif</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">2</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">puer</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">subjonctif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">vocatif</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">futur</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">deuxième</p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p7">comparatif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">pluriel</p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p7">passif</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">3</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">ager</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">impératif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">accusatif</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">imparfait</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">troisième</p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p7">superlatif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">4</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">templum</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">infinitif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">génitif</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">parfait</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">5</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">miles</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">participe</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">datif</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">futur ant.</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">6</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">ciuis</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">gérondif</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p7">ablatif</p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p7">PQP</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">7</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">corpus</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">adj. verbal</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">8</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">mare</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">9</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">manus</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">10</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">res</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">11</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">bonus</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">12</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">miser</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">13</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">pulcher</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">14</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">fortis</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">15</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">uetus</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">16</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">acer</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">17</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">amo</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">18</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">moneo</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">19</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">lego</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">20</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">capio</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">21</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">audio</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">22</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">sum</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">23</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">eo</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">24</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">imitor</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">25</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">uereor</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">26</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">sequor</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">27</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">patior</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">28</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">potior</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">29</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">pronoms</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">30</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">invariable</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">s</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">100</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">Aeneas, ae</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p7">101</p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p7">Cometes, a</p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p7">e</p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p7">102</p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p7">Cybele, es</p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td14">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td14">
+        <p class="p10"><br></p>
+      </td>
+      <td valign="middle" class="td17">
+        <p class="p10"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>9.4. le fichier des irréguliers irregs.la</b></h3>
+<p class="p6">Voici le format d’une forme irrégulière :</p>
+<p class="p9">forme|lemme|cas|genre|nombre|degré|personne|temps|mode|voix</p>
+<p class="p6">exemple :</p>
+<p class="p9">deabus|dea|5|0|2|0|0|0|0|0</p>
+<p class="p6">Pour indiquer que la forme régulière correspondante n’est jamais employée, on ajoute une étoile à la fin de la forme :</p>
+<p class="p9">vĕlim*|uolo|0|0|1|0|1|1|2|1</p>
+<p class="p6">le référentiel est le même que celui des désinences.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>9.5. Les fichiers mdlrad.la et pronomina.la</b></h3>
+<p class="p6">Leur format est complexe. Demandez de l’aide aux auteurs si vous vous y intéressez.</p>
+<p class="p4"><br></p>
+<table width="769.0" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td18">
+        <p class="p1"><span class="s1"><a href="file:///Users/Philippe/Downloads/doc%205/ar01s08.html">Précédent</a></span><span class="s2"> </span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p2"> </p>
+      </td>
+      <td valign="middle" class="td19">
+        <p class="p3"><span class="s2"> <a href="file:///Users/Philippe/Downloads/doc%205/ar01s10.html"><span class="s1">Suivant</span></a></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td18">
+        <p class="p7"> </p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p11"><span class="s1"><a href="file:///Users/Philippe/Downloads/doc%205/index.html">Sommaire</a></span></p>
+      </td>
+      <td valign="top" class="td19">
+        <p class="p12"> </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

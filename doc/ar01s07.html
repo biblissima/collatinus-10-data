@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>7. Le calcul des fréquences</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1187.37">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Times; color: #0000ee}
+    p.p4 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Times; min-height: 14.0px}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #0000ee}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Times}
+    li.li8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+    span.s1 {text-decoration: underline}
+    span.s2 {color: #000000}
+    table.t1 {width: 769.0px}
+    td.td1 {width: 151.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 454.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 150.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 303.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td5 {width: 302.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<table width="769.0" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1"><span class="s1"><a href="file:///Users/Philippe/Downloads/doc%205/ar01s06.html">Précédent</a></span><span class="s2"> </span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p2"><b> </b></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s2"> <a href="file:///Users/Philippe/Downloads/doc%205/ar01s08.html"><span class="s1">Suivant</span></a></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p4"><br></p>
+<h2 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 18.0px Times"><b>7. Le calcul des fréquences</b></h2>
+<p class="p6">Collatinus propose deux outils rudimentaires pour mesurer les fréquences d’un lemme dans un texte ou faire des statistiques sur les schémas métriques des vers. Cet outil est accessible dans le menu Lexiques (Fréquences) ou par le bouton représentant un boulier. Il s’applique lorsque les onglets "Lexiques" ou "Scansion" sont actifs et effectue des opérations différentes détaillées ci-dessous.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>7.1. Dans l’onglet "Lexiques"</b></h3>
+<p class="p6">la fonction "Fréquences" essaie d’estimer le nombre d’occurrences de chaque lemme rencontré dans le texte et établit une liste ordonnée des lemmes (le plus fréquent d’abord). En réalité, on ne sait mesurer que le nombre d’occurrences des formes et certaines formes peuvent venir de plusieurs lemmes différents. On ne peut donc pas espérer avoir un décompte exact sans une étape de désambiguïsation, essentiellement manuelle car c’est souvent le sens qui permet de décider des attributions. Collatinus n'étant pas encore doté d’un outil de désambiguïsation, il applique une méthode simple. Il procède en trois temps. Une première étape, exacte, consiste à relever toutes les formes et à les compter. Puis, il lemmatise les formes et considère les deux cas possibles. Si la forme n’est liée qu'à un seul lemme connu de Collatinus, son nombre d’occurrences sera comptabilisé pour ce lemme dans la catégorie "valeur sûre". Si la forme peut venir de divers lemmes, son nombre d’occurrences sera comptabilisé dans une deuxième catégorie "valeur possible" de tous les lemmes associés. Enfin, suivant le vieil adage, "on ne prête qu’aux riches", Collatinus répartit à nouveau le nombre d’occurrences de chaque forme ambiguë entre chaque lemme possible au prorata de la fréquence de ce lemme. On obtient ainsi une "valeur probable" pour le nombre d’occurrences de chaque lemme.</p>
+<p class="p6">Comme il ne s’agit que d’estimations, la fonction <i>Fréquences</i> donne plusieurs éléments qui permettent à l’utilisateur de juger de la pertinence du résultat. Il s’agit de 4 entiers : n (a, b, c)</p>
+<ul class="ul1">
+  <li class="li8">n = a+c</li>
+  <li class="li8">a = nombre de formes rattachées seulement à ce lemme</li>
+  <li class="li8">b = nombre de formes ambiguës (partagées par plusieurs lemmes)</li>
+  <li class="li8">c = nombre probable de formes ambiguës rattachées à ce lemme</li>
+</ul>
+<p class="p6">a est donc le nombre d’occurrences sûres du lemme, alors que b est le nombre d’occurrences qui pourraient être associées à ce lemme (en excluant évidemment celle comptées dans a). Ces deux nombres sont exacts, dans la limite des connaissances de Collatinus (une forme pouvant venir d’un deuxième lemme que Collatinus ne connaît pas ne sera pas vue comme ambiguë). Le nombre c représente la partie de b qui vient vraisemblablement du lemme (en principe, c ≤ b). Ce dernier nombre n’est qu’une estimation au prorata des fréquences observées dans le texte. Le nombre n = a+c est donc le nombre total d’occurrences que l’on peut associer au lemme.</p>
+<h4 style="margin: 0.0px 0.0px 15.0px 0.0px; font: 12.0px Times"><b>limites et exemples</b></h4>
+<p class="p6">Cette méthode ne permettra jamais de départager des homonymes stricts comme les deux populus. Qu’il s’agisse d’un discours politique ou d’un traité de botanique, Collatinus attribuera toujours la moitié des occurrences de populus au peuple et l’autre moitié au peuplier. L’utilisateur ayant accès au sens du texte devra rétablir les attributions.</p>
+<p class="p6">Si un texte contient la forme "esse" mais aucune autre forme fléchie du verbe "edo" (et, comme c’est vraisemblable, beaucoup de formes de "sum"), le lemme "edo" apparaîtra dans la liste mais avec un nombre d’occurrences probables nul.</p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times"><b>7.2. Dans l’onglet <i>Scansion</i></b></h3>
+<p class="p6">la fonction <i>Fréquences</i> scande le texte et retient dans chaque ligne le schéma métrique. J’entends par là que Collatinus ne retient que la longueur des syllabes et oublie les mots. Quelle que soit la voyelle, elle sera repérée par u si elle est brève, par - si elle est longue et par -̆ si elle est commune ou ambiguë. Pour laisser une porte ouverte sur l'étude du rythme, on garde, dans un premier temps, une trace de la séparation des mots (avec un espace) et des voyelles élidées (repérées par `). Ce schéma métrique est reporté en dessous de chaque ligne scandée. Ces schémas, nettoyés de leurs espaces et d'éventuels signes ` ( trace des élisions), sont alors comptés et rangés par ordre décroissant de leur fréquence. Les schémas n’apparaissant qu’une fois dans le texte ne sont pas affichés dans la liste, mais figureront quand même sous la ligne correspondante. Si dans le texte un mot n’est pas reconnu, il sera recopié dans le schéma métrique avec un @ (signifiant attention !) devant. De même, si une forme peut être scandée en mots de longueurs différentes (par exemple, uoluit) le signe @ apparaîtra dans le schéma métrique.</p>
+<p class="p6">Ainsi les 10 premiers schémas métriques pour "Arma virumque cano,…" seront</p>
+<p class="p10">21 : -uu-------uu-u</p>
+<p class="p10">18 : ---------uu--</p>
+<p class="p10">13 : -uu-uu-----uu-u</p>
+<p class="p10">13 : -uu-------uu--</p>
+<p class="p10">10 : -uu---uu---uu-u</p>
+<p class="p10">10 : -uu---uu---uu--</p>
+<p class="p10">7<span class="Apple-converted-space">  </span>: -----uu---uu-u</p>
+<p class="p10">7<span class="Apple-converted-space">  </span>: -------uu-uu-u</p>
+<p class="p10">6<span class="Apple-converted-space">  </span>: -uu-uu-----uu--</p>
+<p class="p10">6<span class="Apple-converted-space">  </span>: ---------uu-u</p>
+<p class="p6">Cela met bien en évidence la structure des hexamètres avec les dactyles (-uu) et les spondées (--).</p>
+<p class="p4"><br></p>
+<table width="769.0" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td4">
+        <p class="p1"><span class="s1"><a href="file:///Users/Philippe/Downloads/doc%205/ar01s06.html">Précédent</a></span><span class="s2"> </span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p2"> </p>
+      </td>
+      <td valign="middle" class="td5">
+        <p class="p3"><span class="s2"> <a href="file:///Users/Philippe/Downloads/doc%205/ar01s08.html"><span class="s1">Suivant</span></a></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td4">
+        <p class="p8"> </p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p11"><span class="s1"><a href="file:///Users/Philippe/Downloads/doc%205/index.html">Sommaire</a></span></p>
+      </td>
+      <td valign="top" class="td5">
+        <p class="p12"> </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
