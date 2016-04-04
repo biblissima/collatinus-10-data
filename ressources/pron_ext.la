@@ -15,34 +15,8 @@
 !Foundation, Inc., 59 Temple Place, Suite 3inv, Boston, MA  02111-1307  USA
 ! (c) © Yves Ouvrard, 2011 - 2014
 !
-aliquis|quis|ălĭ*
-aliqui|qui|ălĭ*
-ecquis|quis|ēc*
-egomet|ego|*mĕt
-idem|is|*dĕm
-nos|nos|*mĕt
-quicumque|qui|*cūmquĕ
-quicunque|qui|*cūmquĕ
-quidam|qui|*dăm
-quilibet|qui|*lĭbĕt
-quisnam|quis|*năm
-quispiam|quis|*pĭăm
-quisquam|quis|*quăm
-quisque|quis|*quĕ
-quisquis|quis|**
-quiuis|qui|*vĭs
-siquis|quis|sī*
-siqui|qui|sī*
-semet|se|*mĕt
-tute|tu|*tĕ
-tumet|tu|*mĕt
-tutemet|tute|*mĕt
-uterque|uter|*quĕ
-uosmet|uos|*mĕt
 !
 ! Pour les noms, j'introduis le #
 ! Philippe, le 15 novembre 2015
 !
-paterfamilias|pater|#fămĭlĭās
-respublica|res|##
-iusiurandum|ius|##
+materfamilias|mater|#fămĭlĭās

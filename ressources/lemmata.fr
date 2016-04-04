@@ -533,7 +533,7 @@ alimonia|l'aliment, la nourriture
 alioquin|du reste
 alioqui|par ailleurs
 alipilus|l'épileur
-alipta|masseur, esthéticien
+!alipta|masseur, esthéticien
 aliptes|masseur, esthéticien
 aliquamdiu|assez longtemps
 aliquam|multum : une quantité passablement grande
@@ -648,6 +648,7 @@ amplitudo|la grandeur des proportions, l'ampleur
 amplus|grand, important
 amputo|couper, enlever en coupant
 Amulius|Amulius
+!anagnosta|lecteur
 anagnostes|lecteur
 anas|canard
 anceps|1. à deux têtes 2. double 3. douteux, ambigu, incertain
@@ -957,7 +958,7 @@ Asiaticus|asiatique
 Asia|Asie
 asinalis|d'âne
 asinarius|d'âne (asinarius, i, m. : l'ânier)
-asina|Asina
+Asina|Asina
 asininus|d'âne
 Asinius|Asinius
 asinus|âne
@@ -2290,7 +2291,7 @@ contraho|tirer ensemble, rassembler, resserrer, engager une affaire
 contrarie|de manière contraire
 contrarius|contraire, opposé
 contra|au contraire, en face
-contra2|contre
+contra2|prép+acc : contre
 contremesco|commencer à trembler
 controversia|la controverse, la discussion; le point litigieux, le litige
 contubernalis|le compagnon, le camarade
@@ -2508,7 +2509,8 @@ cuminum|cumin
 cumulate|avec largesse
 cumulo|entasser, accumuler, grossir, couronner
 cumulus|amas, surplus, comble, couronnement
-cum|1. Préposition + abl. = avec 2. conjonction + ind. = quand, lorsque, comme, ainsi que 3. conjonction + subj. : alors que
+cum|Préposition + abl. = avec
+cum2|1. Conjonction + ind. = quand, lorsque, comme, ainsi que 2. conjonction + subj. : alors que
 cunabula|berceau; lieu de naissance
 cunae|berceau, petite enfance
 cunctabundus|qui hésite
@@ -3279,7 +3281,7 @@ egestas|1 - le manque, le défaut, la privation, la disette, la pénurie. - 2 - 
 egestio|l'action de rendre
 Egnatius|Egnatius
 egomet|moi, moi-même
-ego|moi
+ego|je
 egredior|sortir
 egregius|1 - choisi, de choix, d'élite. - 2 - distingué, remarquable, éminent, supérieur, illustre, éminent. - 3 - favorable, propice. - 4 - glorieux, honorable.
 Egus|Egus (nom d'homme)
@@ -3567,9 +3569,9 @@ exhortatio|l'exhortation, l'encouragement
 exigo|1 - mettre dehors, conduire dehors, pousser dehors, chasser, expulser, rejeter, renvoyer, répudier. - 2 - pousser dans, pousser vers, enfoncer, lancer, percer. - 3 - au fig. pousser, exciter, stimuler. - 4 - passer (le temps), traverser, supporter, endurer, essuyer. - 5 - pousser dehors (des marchandises), se défaire de, vendre, écouler, exporter. - 6 - terminer, achever, mener à terme, accomplir, finir. - 7 - exiger, réclamer, redemander, faire rentrer (de l'argent), faire payer, lever (un impôt), percevoir (une taxe). - 8 - peser, mesurer, examiner, apprécier, juger. - 9 - délibérer, discuter, discourir, traiter.
 exiguitas|exiguïté, petitesse
 exiguus|exigu, petit
-exilio|sauter hors, s'élancer, s'élever
+!exilio|sauter hors, s'élancer, s'élever
 exilis|menu, mince
-exilium|exil
+!exilium|exil
 eximie|excellement, éminemment, d'une manière qui sort de l'ordinaire
 eximius|sortant de l'ordinaire, remarquable, rare
 eximo|ôter, retirer de, user jusqu'au bout
@@ -3641,7 +3643,7 @@ expromo|1 - tirer (une chose d'un endroit où elle est serrée), tirer dehors, f
 expugnatio|l'action de prendre d'assaut, la prise
 expugno|prendre par la force, vaincre
 expungo|effacer, verifier, terminer
-expuo|cracher
+!expuo|cracher
 exquiro|chercher à découvrir, rechercher, demander, s'informer
 exquisite|avec précision
 exquisitus|choisi, distingué, raffiné, exquis
@@ -3686,11 +3688,11 @@ exterritus|effrayé, affolé
 exterus|extérieur, externe, du dehors
 extimesco|craindre
 extimus|placé à l'extrémité, qui est au bout, le plus éloigné
-extinguo|éteindre, faire disparaître, faire mourir
+!extinguo|éteindre, faire disparaître, faire mourir
 extollo|lever hors de, élever, exalter
 extorqueo|- tr. - déboîter, disloquer; démettre, luxer (membre); arracher
 extorris|rejeté hors d'un pays, banni
-exto|se tenir au-dessus, être élevé; être visible, se montrer
+!exto|se tenir au-dessus, être élevé; être visible, se montrer
 extraho|extraire, retirer, ôter
 extraneus|extérieur, du dehors
 extra|en dehors de, à l'exception de adv. : au dehors, à l'extérieur (extra quam : excepté que, à moins que)
@@ -3698,7 +3700,7 @@ extremus|dernier
 extrilidus|très pâle
 extrinsecus|du dehors, de l'extérieur
 extrudo|pousser dehors avec violence, chasser de, mettre à la porte
-extruo|accumuler, construire, élever
+!extruo|accumuler, construire, élever
 extundo|faire sortir, obtenir avec effort
 exturbo|faire sortir de force, chasser, expulser
 exundatio|le débordement
@@ -4563,6 +4565,7 @@ immodestia|le manque de retenus, l'excès, le dérèglement
 immodicus|démesuré, excessif, sans retenue
 immolo|sacrifier
 immoror|s'arrêter, insister (sur qqch, in aliqua re, rei), s'arrêter sur qqch
+immortales|les immortels
 immortalis|immortel
 immotus|sans mouvement, immobile
 immo|pas du tout, non, au contraire
@@ -4767,7 +4770,6 @@ indignus|indigne
 indiligens|négligent
 indiligenter|négligemment
 indiscretus|non séparé, étroitement uni, confondu, indistinct
-indisertus|sans talent oratoire
 individuus|qu'on ne peut diviser, qui ne divise pas
 indoctus|ignorant
 indolesco|souffrir
@@ -5166,7 +5168,7 @@ irate|avec colère
 iratus|en colère, irrité
 ira|colère
 Iris|Iris (déesse), arc-en-ciel
-Iris2|le hérisson
+iris2|le hérisson
 irreligiositas|l'irréligion
 irreparabilis|irréparable
 irreprehensus|irréprochable
@@ -5269,12 +5271,12 @@ jure|à bon droit
 jurgiosus|querelleur
 jurgium|querelle, dispute, altercation
 jurisdictio|la juridiction
-jurisjurandum|serment
+!jurisjurandum|serment
 juro|jurer
 jusjurandum|serment
 jussio|l'ordre
 jussum|l'ordre
-jussu|sur l'ordre de
+!jussu|sur l'ordre de
 justitia|la justice, l'esprit de justice
 justitium|les vacances des tribunaux, l'arrêt des affaires de justice
 justus|juste, équitable, raisonnable
@@ -6056,7 +6058,8 @@ moles|la masse
 molimentum|l'effort pour réaliser qqch.
 molior|mettre en mouvement, bâtir, entreprendre
 molitio|le remue-ménage
-molitor|meunier ; celui qui trame, qui ourdit
+molitor|meunier
+molitor2|celui qui trame, qui ourdit
 mollio|rendre souple, adoucir, atténuer
 mollis|mou, fluide, souple, flexible
 molliter|mollement, avec douceur
@@ -6092,6 +6095,7 @@ morosus|difficile, maussade, grincheux, chagrin
 morsus|morsure
 mors|mort
 mortalis|mortel
+mortalis2|mortel, mortelle
 mortarium|mortier
 mortifer|mortel, fatal
 mortuus|mort
@@ -7214,7 +7218,8 @@ placide|calmement, paisiblement
 placidus|doux, calme, paisible
 placito|plaire beaucoup
 placo|apaiser. - placare aliquem alicui : rendre qqn bienveillant à l'égard de qqn
-plaga|1. coup, blessure ; région 2. piège, filet
+plaga|coup, blessure
+plaga2|1. région 2. piège, filet
 plagiarius|le plagiaire (celui qui vend comme esclave un homme libre)
 plagigerulus|roué de coups
 plagipatida|le souffre-douleur
@@ -7725,7 +7730,7 @@ propero|se hâter (+ inf)
 Propertius|Properce
 properus|prompt, rapide, pressé
 propexus|peigné en avant, qui pend
-prope|près de
+prope|adv. près, presque ; prép + acc. près de
 propino|boire le premier, passer la coupe, offrir à boire
 propinquitas|proximité
 propinquo|s'approcher
@@ -7977,6 +7982,7 @@ queror|se plaindre
 querulus|plaintif, chagrin, maussade
 questus|la plainte
 quia|parce que
+quibuscum|= cum quibus
 quicquis|quiconque, quoi que ce soit
 quicumque|qui que ce soit, quoi que ce soit
 quicum|= cum quo
@@ -7984,7 +7990,7 @@ quidam|un certain, quelqu'un, quelque chose
 quidem|certes (ne-) ne pas même
 quidlibet|tout ce qu'on voudra
 quidni|pourquoi donc?
-quid|pourquoi ?
+quid|pourquoi ? après si, nisi, ne, num, aliquid devient quid
 quiesco|se reposer, dormir
 quies|repos, tranquillité
 quiete|paisiblement
@@ -8078,6 +8084,7 @@ rapto|entraîner, emporter
 raro|rarement
 rarus|1. peu serré, peu dense 2. espacé, clairsemé 3. rare 4. peu fréquent
 raster|le hoyau, la bêche
+rationalis|1. relatif au calcul. 2. fondé sur le raisonnement. 3. doué de raison, raisonnable.
 rationarium|statistique, état [de qqch.]
 ratio|la raison, le raisonnement, le compte
 ratis|le radeau, le navire
@@ -9232,7 +9239,7 @@ suppositio|action de placer dessous, substitution frauduleuse
 suppostus|soumis
 supprimo|contenir, arrêter, supprimer
 supra|au dessus ; prép. + acc. : au dessus de, au delà de
-!supremus|le plus haut, le dernier
+supremus|le plus haut, le dernier
 suptilitas|la finesse, la rénuité; la précision stricte, la simplicité de style
 surdus|sourd
 surgo|se lever
@@ -9614,7 +9621,7 @@ Trinacrius|Sicilien (Sicile = île aux trois pointes)
 trinoctialis|de trois nuits
 trinoctium|espace de trois nuits
 Trinovantes|les Trinovantes (peuple de la Bretagne)
-trio|Trio (surnom romain)
+Trio|Trio (surnom romain)
 tripertito|en trois parties
 triplex|triple
 tripus|le trépied
@@ -9710,7 +9717,7 @@ tutor|le défenseur, le protécteur; le tuteur, le curateur
 tuto|sans risque, en sécurité
 tutus|en sécurité, sûr
 tuus|ton, le tien
-tu|toi, toi tu, te
+tu|tu, te, toi
 Tydides|Tydudes
 tympanum|tambourin
 typhonas|le typhon
@@ -9888,7 +9895,7 @@ vastus|vide, désert, désolé, vaste
 vasum|comme uas, uasis : pot, vaisseau
 vas|vase
 vates|le devin, le poète
-vatia|Vatia
+Vatia|Vatia
 vaticinatio|la prédiction, l'oracle, la prophétie
 vaticinor|prophétiser, extravaguer
 Vatinius|Vatinius (nom d'homme)
@@ -9900,7 +9907,8 @@ vectigalis|soumis à l'impôt, tributaire (uectigal, alis, n. : l'impôt)
 vectigal|l'impôt
 vecto|transporter
 vectura|la voiture
-Vedius|Vedius
+Vedius|Pluton
+Vedius2|Vedius
 vehemens|emporté, impétueux
 vehementer|violemment, passionnément, beaucoup
 vehiculum|véhicule

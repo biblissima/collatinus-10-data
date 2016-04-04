@@ -518,7 +518,7 @@ alimonia|food, nourishment; feeding, nurture, upbringing; cost of maintenance;
 alioquin|otherwise, in other/some respects; besides, else; in any case; in general;
 alioqui|otherwise, in other/some respects; besides, else; in any case; in general;
 alipilus|slave who plucked the hair from armpits of bathers;
-alipta|one who anoints; manager of school of wrestlers; master of wrestlers/the ring;
+!alipta|one who anoints; manager of school of wrestlers; master of wrestlers/the ring;
 aliptes|one who anoints; manager of school of wrestlers; master of wrestlers/the ring;
 aliquamdiu|for some time, for a considerable time/distance (travel), for a while;
 aliquam|largely, to a large extent, a lot of; [~ multi/multum => fair number/amount];
@@ -627,7 +627,7 @@ amplitudo|greatness; extent, breadth, width, bulk; importance; fullness (of expr
 amplus|great, large, spacious, wide, ample; distinguished, important, honorable;
 amputo|lop/cut off, prune, shorten; amputate; eradicate, exclude, take away; castrate;
 Amulius|Amulius
-anagnosta|a reader. v. anagnostes
+!anagnosta|a reader. v. anagnostes
 anagnostes|reader, one who reads aloud, slave trained to read aloud;
 anas|duck;
 anceps|- two headed/fold/edged/meanings; faces two/opposite directions/fronts; twofold; - on two sides/fronts (war/attack); undecided/drawn/hanging in balance (battle); - double; w/two meanings; uncertain; dangerous/perilous; ambiguous; unsettled; - doubtful/undecided/wavering; untrustworthy/unreliable/unpredictable;
@@ -927,7 +927,7 @@ asellus|(small/young) ass, donkey; fish of the cod family, hake?; Asses/stars in
 Asia|Asia (Roman province formed from Pergamene); Asia Minor; the East;
 asinalis|of/pertaining to an ass; such as an ass is capable of; asinine, doltish,
 asinarius|of/connected w/asses; millstone (ass-driven); [via ~ => road SE of Rome];
-asina|Asina
+Asina|Asina
 asininus|ass's, of/produced by/foaled of an ass; ass-like; stupid; asinine;
 Asinius|Asinius
 asinus|of/connected with an ass/donkey, ass's; stupid, asinine;
@@ -3480,9 +3480,9 @@ exhortatio|exhortation, action of admonishing/encouraging; inducement;
 exigo|drive out, expel; finish; examine, weigh;
 exiguitas|smallness, paucity; shortness; scarcity;
 exiguus|small; meager; dreary; a little, a bit of; scanty, petty, short, poor;
-exilio|spring/leap/burst forth/out, leap up, start up, bound; emerge into existence;
+!exilio|spring/leap/burst forth/out, leap up, start up, bound; emerge into existence;
 exilis|small, thin; poor;
-exilium|exile, banishment; place of exile/retreat (L+S); exiles (pl.), those exiled;
+!exilium|exile, banishment; place of exile/retreat (L+S); exiles (pl.), those exiled;
 eximie|exceedingly, very much, uncommonly, excellently
 eximius|- select; extraordinary/special; excellent; [Doctor Eximius => Francis Suarez];
 eximo|remove/extract, take/lift out/off/away; banish, get rid of; free/save/release;
@@ -3550,7 +3550,7 @@ expromo|bring/take out (from store), put out; put to use, put in play; disclose,
 expugnatio|storming, taking by storm; assault;
 expugno|assault, storm; conquer, plunder; accomplish; persuade;
 expungo|to take by assault, to storm, capture, reduce, subdue
-expuo|spit out; eject; rid oneself of;
+!expuo|spit out; eject; rid oneself of;
 exquiro|seek out, search for, hunt up; inquire into;
 exquisite|carefully, accurately, precisely
 exquisitus|seek out, search for, hunt up; inquire into
@@ -3595,11 +3595,11 @@ exterreo|strike with terror, scare;
 exterus|outer/external; outward; on outside, far; of another country, foreign; strange;
 extimesco|take fright, be alarmed, dread;
 extimus|outermost; farthest; end/utmost edge of;
-extinguo|quench, extinguish; kill; destroy;
+!extinguo|quench, extinguish; kill; destroy;
 extollo|raise; lift up; extol, advance; erect (building);
 extorqueo|extort; tear away, twist away; twist/wrench out;
 extorris|exiled;
-exto|stand out or forth, project be visible, exist, be on record;
+!exto|stand out or forth, project be visible, exist, be on record;
 extraho|drag out; prolong; rescue, extract; remove;
 extraneus|external, extraneous, foreign; not belonging to one's family or household;
 extra|outside of, beyond, without, beside; except;
@@ -3607,7 +3607,7 @@ extremus|rear (pl.);
 extrilidus|unterrified, dauntless
 extrinsecus|from without/outside; externally; from extraneous source; w/no inside
 extrudo|thrust out; draw out;
-extruo|pile up; build up, raise;
+!extruo|pile up; build up, raise;
 extundo|beat or strike out produce with effort;
 exturbo|drive away, put away a wife;
 exundatio|an overflowing
@@ -4255,7 +4255,7 @@ hilarus|cheerful, lively, light-hearted;
 hinc|from here, from this source/cause; hence, henceforth;
 hio|be wide open, gape; be greedy for; be open-mouthed (with astonishment, etc);
 hippocentaurus|centaur;
-hippodromus|hippodrome racecourse
+hippodromos|hippodrome racecourse
 hircosus|that smells like a goat, goatish
 hircus|he-goat;
 hirsutus|rough, shaggy, hairy, bristly, prickly; rude;
@@ -4998,7 +4998,7 @@ irascor|get angry, fly into a rage; be angry at (with dat.)
 irate|angrily; indignantly; furiously;
 iratus|angry; enraged; furious; violent (L+S); raging; angered;
 ira|anger; ire, wrath; resentment; indignation; rage/fury/violence; bad blood;
-Iris2|hedgehog
+iris2|hedgehog
 Iris|iris (plant)i; preparation of iris root; iridescent stone;
 irreligiositas|irreligion, impiety
 irreparabilis|irreparable, irrecoverable (loss/damage); irretrievable;;
@@ -5098,7 +5098,7 @@ jure|by right, rightly, with justice; justly, deservedly;
 jurgiosus|quarrelsome
 jurgium|quarrel/dispute/strife; abuse/vituperation/invective; L:separation (man+wife);
 jurisdictio|jurisdiction, legal authority; administration of justice;
-jurisjurandum|:an oath, to break, violate, to dispense with
+!jurisjurandum|:an oath, to break, violate, to dispense with
 juro|swear; call to witness; vow obedience to; [jus jurandum => oath]; conspire;
 jusjurandum|oath;
 jussio|order, command; magistrate's order; requisition;
@@ -5958,7 +5958,7 @@ munitus|defended, fortified; protected, secured, safe;
 munusculum|small present or favor;
 munus|service; duty, office, function; gift; tribute, offering; bribes (pl.);
 muraena|kind of eel, the moray or lamprey;
-Murena|kind of eel, the moray or lamprey;
+murena|kind of eel, the moray or lamprey;
 murex|purple fish, shellfish which gave Tyrian dye; purple dye; purple cloth;
 murmur|murmur/mutter; whisper/rustle, hum/buzz; low noise; roar/growl/grunt/rumble;
 murra|- fluorspar; agate?; highly prized mineral used for making vases;
@@ -9310,7 +9310,8 @@ trimembris|having three sets of limbs, triple-membered
 Trinacrius|Sicilian
 trinoctialis|of three nights, for the space of three nights, trinoctial
 trinoctium|three-night interval;
-trio|oxen (pl.) used for plowing; constellations Great/Little Bear (7 stars/oxen);
+Trio|Trio (Roman surname)
+!trio|oxen (pl.) used for plowing; constellations Great/Little Bear (7 stars/oxen);
 tripertito|in three parts;
 triplex|threefold, triple; three;
 tripus|three-legged stand, tripod; the oracle at Delphi; oracles in general;
@@ -9573,7 +9574,7 @@ vastus|huge, vast; monstrous;
 vasum|comme uas, uasis : vessel/dish; vase; pack/kit; utensil/instrument/tool; equipment/apparatus
 vas|vessel/dish; vase; pack/kit; utensil/instrument/tool; equipment/apparatus
 vates|prophet/seer, mouthpiece of deity; oracle, soothsayer; poet (divinely
-vatia|Vatia
+Vatia|Vatia
 vaticinatio|prophecy, prediction;
 vaticinor|to foretell, predict, prophesy, forebode, vaticinate
 Vatinius|Vatinius
