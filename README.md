@@ -1,5 +1,7 @@
 # Collatinus
 
+## Attention ! Les ressources de la branche 10.3alpha NE SONT PAS compatibles à 100% avec Collatinus 10.2.
+
 Ce dépôt contient les données exploitées par [Collatinus](http://outils.biblissima.fr/collatinus/), un logiciel libre et gratuit pour la lemmatisation et l'analyse morphologique de textes latins. 
 
 Ces données correspondent aux ressources linguistiques utilisées à la fois par la version dite "standalone" de Collatinus et par la version web (fichiers de dictionnaires de latin, lexiques en différentes langues, désinences etc.).
