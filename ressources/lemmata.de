@@ -495,7 +495,7 @@ alimonia|l'aliment, la nourriture
 alioquin|du reste
 alioqui|in anderer Hinsicht, sonst
 alipilus|l'épileur
-alipta|masseur, esthéticien
+!alipta|masseur, esthéticien
 aliptes|Masseur
 aliquamdiu|eine Zeitlang
 aliquam|rem, trotz, ungeachtet
@@ -600,7 +600,7 @@ amplitudo|Geräumigkeit, Großartigkeit, Weite, Größe, Ansehen
 amplus|umfangreich, ansehlich, weit, geräumig, bedeutend, ansehnlich
 amputo|ringsum abschneiden
 Amulius|Amulius
-anagnosta|lecteur
+!anagnosta|lecteur
 anagnostes|Vorleser
 anas|Ente
 anceps|zweideutig, unentschieden
@@ -892,7 +892,7 @@ asellus|Esel
 Asia|Asie
 asinalis|d'âne
 asinarius|Esel
-asina|Asina
+Asina|Asina
 asininus|d'âne
 Asinius|Asinius
 asinus|Esel, Dummkopf
@@ -3371,9 +3371,9 @@ exhortatio|Ermunterung
 exigo|hinaustreiben
 exiguitas|Kleinheit
 exiguus|klein, unansehnlich, knapp, unbedeutend, geringfügig
-exilio|sauter hors, s'élancer, s'élever
+!exilio|sauter hors, s'élancer, s'élever
 exilis|mager
-exilium|Verbannung
+!exilium|Verbannung
 eximie|excellement, éminemment, d'une manière qui sort de l'ordinaire
 eximius|ausgenommen, ausnehmend, hervorragend
 eximo|wegnehmen, verbrauchen
@@ -3443,7 +3443,7 @@ exprobro|Vorwürfe machen
 expromo|hervorholen
 expugnatio|Erstürmung, Einnahme, Eroberung
 expugno|erstürmen
-expuo|cracher
+!expuo|cracher
 exquiro|heraussuchen, untersuchen
 exquisite|avec précision
 exquisitus|auserlesen
@@ -3459,7 +3459,7 @@ exsequia|les obsèques, les funérailles
 exsequor|zum Grabe geleiten, verfolgen
 exsibilo|auszischen
 exsilio|herausspringen
-exsilium|l'exil
+exsilium|Verbannung
 exsisto|hervorgehen
 exsolvo|auflösen, erlösen
 exspectatio|Erwartung
@@ -3489,11 +3489,11 @@ exterritus|erschreckt
 exterus|auswärtig
 extimesco|Angst bekommen
 extimus|der äußerste
-extinguo|éteindre, faire disparaître, faire mourir
+!extinguo|éteindre, faire disparaître, faire mourir
 extollo|herausnehmen, aufheben
 extorqueo|herausdrehen
 extorris|landesflüchtig
-exto|se tenir au-dessus, être élevé; être visible, se montrer
+!exto|se tenir au-dessus, être élevé; être visible, se montrer
 extraho|herausziehen
 extraneus|außen
 extra|außen, außerhalb, von außen, äußerlich, von aussen, äusserlich
@@ -3501,7 +3501,7 @@ extremus|der äußerste, letzte, äußerste, äusserste
 extrilidus|très pâle
 extrinsecus|von außen, außerhalb, ausserhalb
 extrudo|hinausstoßen
-extruo|accumuler, construire, élever
+!extruo|accumuler, construire, élever
 exta|les entrailles
 exturbo|gewaltsam hinausjagen
 exundatio|Überschwemmung
@@ -4141,7 +4141,7 @@ hilarus|heiter, lustig
 hinc|von hier
 hio|klaffen
 hippocentaurus|Kentaur
-hippodromus|Reitbahn
+hippodromos|Reitbahn
 hircosus|stinkend wie ein Bock
 hircus|Ziegenbock
 hirsutus|stachelig
@@ -4969,12 +4969,12 @@ jure|mit Recht
 jurgiosus|zänkisch
 jurgium|Wortwechsel
 jurisdictio|Zivilgerichtsbarkeit, Justiz
-jurisjurandum|serment
+!jurisjurandum|serment
 juro|schwören
 jusjurandum|Schwur
 jussio|l'ordre
 jussum|Befehl, Geheiß, Geheiss
-jussu|Caesaris, auf Caesars Befehl
+!jussu|Caesaris, auf Caesars Befehl
 justitia|Gerechtigkeit, die Gerechtigkeit
 justitium|Einstellung aller Rechtsgeschäfte
 justus|gerecht
@@ -5575,7 +5575,7 @@ mendacium|Lüge
 mendax|lügnerisch, Lügner
 Menelaus|Ménélas
 Menenius|Menenius
-Menippaeus|Ménippée (nom d'une oeuvre de Varon : la Satire Ménippée)
+!Menippaeus|Ménippée (nom d'une oeuvre de Varon : la Satire Ménippée)
 mensa|Tisch, Eßtisch, Tafel
 mensis|September, September
 menstrualis|monatlich
@@ -5818,7 +5818,7 @@ munitor|Erbauer
 munitus|gebahnte Wege
 munusculum|kleines Geschenk
 munus|habere, ein Amt bekleiden
-Murena|Muräne
+murena|Muräne
 murex|Purpurschnecke
 murmur|das Murmeln
 murra|Flußspat, Myrrhenbaum, Myrrhe
@@ -9133,7 +9133,7 @@ Trinacrius|Sicilien (Sicile , île aux trois pointes)
 trinoctialis|von drei Nächten
 trinoctium|drei Nächte
 Trinovantes|les Trinovantes (peuple de la Bretagne)
-trio|Trio (surnom romain)
+Trio|Trio (surnom romain)
 tripertito|dreifach, in drei Teile
 triplex|dreifach
 tripus|dreisüßiger Kessel
@@ -9388,7 +9388,7 @@ vastus|leer, wüst, öde, weit
 vasum|Gefäß
 vas|vitreum, Glas, Glasgefäß, Glasgefäss
 vates|Wahrsager, Sänger, Seher, Seherin
-vatia|Vatia
+Vatia|Vatia
 vaticinatio|Weissagung
 vaticinor|weissagen
 Vatinius|Vatinius (nom d'homme)

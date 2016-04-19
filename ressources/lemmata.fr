@@ -5897,7 +5897,7 @@ mendax|menteur
 mendicus|misérable, pauvre ; us, i, m. : mendiant
 Menelaus|Ménélas
 Menenius|Menenius
-Menippaeus|Ménippée (nom d'une oeuvre de Varon : la Satire Ménippée)
+!Menippaeus|Ménippée (nom d'une oeuvre de Varon : la Satire Ménippée)
 mensa|table
 mensis|mois
 menstrualis|mensuel (de la durée d'un mois)

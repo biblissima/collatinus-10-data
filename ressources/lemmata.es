@@ -522,7 +522,7 @@ alimonia|alimento
 alioquin|por otra parte, por lo demás
 alioqui|de lo contrario, por otra parte, por lo demás
 alipilus|depilador
-alipta|masajista
+!alipta|masajista
 aliptes|masajista
 aliquamdiu|durante algún tiempo
 aliquam|multum : una cantidad bastante numerosa
@@ -635,7 +635,7 @@ amplitudo|grandeza de dimensiones, amplitud
 amplus|grande, importante
 amputo|amputar, cortar, recortar
 Amulius|Amulio
-anagnosta|lector
+!anagnosta|lector
 anagnostes|lector
 anas|pato, ánade
 anceps|1. de dos cabezas 2. doble 3. dudoso, ambiguo, incierto
@@ -943,7 +943,7 @@ asellus|asno
 Asia|Asia
 asinalis|del asno
 asinarius|del asno(asinarius, i, m. :asnero)
-asina|Asina
+Asina|Asina
 asininus|del asno
 Asinius|Asinio
 asinus|del asno
@@ -3528,9 +3528,9 @@ exhortatio|exhortación
 exigo|1 - hacer salir, expulsar. - 2 - hacer cumplir , exigir. - 3 - preguntar. - 4 - medir, apreciar.
 exiguitas|exigüidad, pequeñez; escasez; brevedad
 exiguus|exiguo, pequeño; corto, estrecho
-exilio|saltar fuera, lanzarse fuera; elevarse, levantarse
+!exilio|saltar fuera, lanzarse fuera; elevarse, levantarse
 exilis|pequeño, reducido, flaco, seco; yermo, pobre
-exilium|destierro, exilio
+!exilium|destierro, exilio
 eximie|excelentemente, eminentemente
 eximius|privilegiado, distinguido, extraordinario, eximio
 eximo|sustraer, sacar; suprimir; agotar
@@ -3602,7 +3602,7 @@ expromo|1 - sacar, hacer salir; producir, manifestar, mostrar. - 3 - decir, expo
 expugnatio|expugnación, conquista
 expugno|expugnar, tomar por asalto; vencer, someter, reducir
 expungo|borrar, tachar
-expuo|escupir; exhalar, arrojar, vomitar
+!expuo|escupir; exhalar, arrojar, vomitar
 exquiro|inquirir, indagar; escoger; desear alcanzar, intentar obtener; examinar, revisar; informarse
 exquisite|con mucho cuidado
 exquisitus|escogido, distinguido; débil, agotado
@@ -3647,11 +3647,11 @@ exterritus|espantado, amedrentado
 exterus|exterior, externo
 extimesco|espantarse, tener miedo; temer
 extimus|puesto en el extremo más alejado
-extinguo|levantarse, elevarse; reanimarse
+!extinguo|levantarse, elevarse; reanimarse
 extollo|levantar; ensalzar, alabar; distinguir, honrar; embellecer
 extorqueo|- tr. - dislocar, descoyuntar; arrancar
 extorris|expulsado, desterrado
-exto|sobresalir, estar por encima de; subsistir, mostrarse, existir
+!exto|sobresalir, estar por encima de; subsistir, mostrarse, existir
 extraho|quitar, extraer; sacar, hacer salir; revelar; prolongar, aplazar
 extraneus|exterior, extraño, extrajero
 extra|fuera de adv. : fuera, afuera, al exterior (extra quam : a menos que)
@@ -3659,7 +3659,7 @@ extremus|extremo, último
 extrilidus|muy pálido
 extrinsecus|de fuera, del exterior; fuera, por fuera
 extrudo|empujar, echar; rechazar, contener; deshacerse, tirar
-extruo|acumular, levantar
+!extruo|acumular, levantar
 extundo|cincelar, sacar a golpes; arrancar; formar, forjar, fabricar; alejar
 exturbo|hacer salir a la fuerza, expulsar
 exundatio|desbordamiento
@@ -4323,7 +4323,7 @@ hilarus|alegre, feliz
 hinc|de aquí
 hio|entreabrirse, rajarse, bostezar; codiciar, quedarse con la boca abierta
 hippocentaurus|hipocentauro, centauro
-hippodromus|hipódromo
+hippodromos|hipódromo
 hircosus|que huele a macho cabrío
 hircus|macho cabrío; hedor de macho cabrío
 hirsutus|erizado, espinoso; hirsuto, velloso
@@ -5185,12 +5185,12 @@ jure|con derecho, justamente
 jurgiosus|pendenciero, querellante
 jurgium|querella, disputa, altercado
 jurisdictio|jurisdicción
-jurisjurandum|juramento
+!jurisjurandum|juramento
 juro|jurar
 jusjurandum|juramento
 jussio|orden, mandato
 jussum|orden, mandato
-jussu|por orden de
+!jussu|por orden de
 justitia|justicia, derecho
 justitium|vacaciones de los tribunales, interrupción de los juicios
 justus|justo, equitativo, conveniente
@@ -5801,7 +5801,7 @@ mendax|mentiroso; falso, engañoso
 mendicus|de mendigo, mendicante ; us, i, m. : mendigo
 Menelaus|Menelao
 Menenius|Menenio
-Menippaeus|menipeo (nombre de una obra de Varrón : la Sátira Menipea)
+!Menippaeus|menipeo (nombre de una obra de Varrón : la Sátira Menipea)
 mensa|mesa; ara, altar
 mensis|mes
 menstrualis|mensual (de un mes de duración)
@@ -6056,7 +6056,7 @@ munitus|fortificado, reforzado, protegido
 munusculum|regalillo
 munus|1. oficio, cargo 2. tarea, obra 3. trabajo realizado 4. servicio cumplido 5. regalo, favor 6. espectáculo público, combate de gladiadores
 muraena|murena o morena (pez)
-Murena|murena o morena (pez)
+murena|murena o morena (pez)
 murex|múrice (molusco del que se saca la púrpura), púrpura ; freno
 murmur|murmullo, rumor
 murra|mirra (perfume)
@@ -9461,7 +9461,7 @@ Trinacrius|sicilino (Sicilia = isla de los tres promontorios)
 trinoctialis|de tres noches
 trinoctium|espacio de tres noches
 Trinovantes|los trinovantes (pueblo de Bretaña)
-trio|Trión (sobrenombre romano)
+Trio|Trión (sobrenombre romano)
 tripertito|en tres partes
 triplex|triple
 tripus|la trébedes
@@ -9733,7 +9733,7 @@ vastus|vacío, desierto, desolado, vasto
 vasum|como uas, uasis : vasija, navío
 vas|vaso
 vates|el adivino, el poeta
-vatia|Vatia
+Vatia|Vatia
 vaticinatio|la predicción, el oráculo, la profecía
 vaticinor|profetizar, desatinar
 Vatinius|Vatinio (nombre de varón)

@@ -568,7 +568,7 @@ alimonia|Alimentar, de alimente
 alioquin|Pe linga
 alioqui|Pe linga
 alipilus|Nejustificata a
-alipta|Masseur, beautician
+!alipta|Masseur, beautician
 aliptes|Masseur, beautician
 aliquamdiu|Pentru o perioada lunga de timp
 aliquam|Multum: o mare cantitate destul
@@ -680,7 +680,7 @@ amplitudo|Dimensiunea de proporţiile, scara
 amplus|Mare, important
 amputo|Taiaţi, demontaţi prin taiere
 Amulius|Amulius
-anagnosta|Cititor
+!anagnosta|Cititor
 anagnostes|Cititor
 anas|Raţa
 anceps|1. In cele doua capete 2. Dublu 3. Indoielnica, ambiguu, incert
@@ -985,7 +985,7 @@ asellus|Magarul
 Asia|Asia
 asinalis|De magar
 asinarius|De magar (asinarius, i, m.: magarul-şofer)
-asina|Asina
+Asina|Asina
 asininus|De magar
 Asinius|Asinius
 asinus|Magar
@@ -3552,9 +3552,9 @@ exhortatio|De predicile, incurajarea
 exigo|1 - pentru a pune în afara, de a duce în afara, de a creşte în afara, merg la vinatoare, pentru a evacua, pentru a respinge, pentru a trimite înapoi, pentru a respinge. - 2 - indemnul în, de a creşte spre, la chiuveta în, sa arunce, la scurgere. - 3 - în fig. cresc, sa excite, sa stimuleze. - (4) - la cruce (de timp), la cruce, la suport, sa indure, sa stearga. - 5 - indemnul afara (bunuri), se defileteaza, pentru a vinde, pentru a vinde, la export. - 6 - pentru a încheia, pentru a finaliza, sa conduca în cele din urma, de a efectua, la pentru a finaliza. - 7 - pentru a cere, sa protesteze, sa ceara mai mult, de a pune înapoi (bani), pentru a încarca, la pentru a ridica (a impozitului), pentru a percepe (o taxa).  - 8 - pentru a cântari, pentru a masura, sa examineze, sa aprecieze, pentru a judeca. - 9 - in mod deliberat, pentru a discuta, pentru a discuta, trataţi.
 exiguitas|Exiguity, dimensiuni mici
 exiguus|Înghesuit, mici
-exilio|Salt cu exceptia, dash, nastere
+!exilio|Salt cu exceptia, dash, nastere
 exilis|Subţire, subţire
-exilium|Exil
+!exilium|Exil
 eximie|Excellement, mînuit, într-un mod obişnuit de a
 eximius|Fiind ieşita din comun, remarcabil, rare
 eximo|Scoateţi, demontaţi de, utilizaţi pâna la sfârşitul
@@ -3625,7 +3625,7 @@ expromo|1 - Pentru a trage (un lucru de un loc in care ea este o revarsare), tra
 expugnatio|Acţiunea de asalt, mânerul
 expugno|Set de forta, win
 expungo|Erase, verificator, la sfârşitul
-expuo|Scuipat
+!expuo|Scuipat
 exquiro|Încercaţi sa descoperiţi, sa caute, sa ceara, sa se intereseze
 exquisite|Exact
 exquisitus|Alese, distins, sofisticat, delicioase
@@ -3670,11 +3670,11 @@ exterritus|Speriata, îngrozita
 exterus|În Afara, extern, din exterior
 extimesco|Se tem
 extimus|Plasate în extremitaţi, care este în spate, cel mai luat
-extinguo|Puse în afara, demontaţi, asiguraţi mor
+!extinguo|Puse în afara, demontaţi, asiguraţi mor
 extollo|Ridicaţi în afara, ridicare, excitaţi
 extorqueo|- tr. - Trageţi, perturba; dizloca, dizloca (membru); rupeţi departe
 extorris|Respins în afara o tara, alunga
-exto|Fi deţinute anterior, fie ridicat; fie vizibile, arata
+!exto|Fi deţinute anterior, fie ridicat; fie vizibile, arata
 extraho|Extract, scoateţi, demontaţi
 extraneus|In afara, din afara
 extra|In afara, cu exceptia adv.: in afara, din afara (extra quam: precizarea ca, in afara cazului in care)
@@ -3682,7 +3682,7 @@ extremus|Ultima o
 extrilidus|Foarte palid
 extrinsecus|Din exterior, din afara
 extrudo|Indemnul afara cu violenta, merg la vinatoare de, sa arunce afara
-extruo|Acumula, construi, ridicare
+!extruo|Acumula, construi, ridicare
 extundo|Sa se stinga, obţine cu efort
 exturbo|Sa se stinga de rezistenţa, merg la vinatoare, expulza
 exundatio|Revarsarea De
@@ -4336,7 +4336,7 @@ hilarus|Invitaţilor
 hinc|De aici
 hio|Semi-deschis, split, fie cu gura cascata
 hippocentaurus|De hippocentaure, centaurul
-hippodromus|De format din aqualand
+hippodromos|De format din aqualand
 hircosus|Care simte billy capra
 hircus|Billy capra
 hirsutus|Casanta, casanta
@@ -5101,7 +5101,7 @@ irascor|Puse sine suparat
 irate|Cu furie
 iratus|Suparat, iritat
 ira|Furia
-Iris|Ariciul
+iris2|Ariciul
 irreligiositas|De godlessness
 irreparabilis|Iremediabila
 irreprehensus|Ireprosabil
@@ -5202,12 +5202,12 @@ jure|Merit
 jurgiosus|Trezit
 jurgium|Certa, concura, altercatie
 jurisdictio|Jurisdicţia
-jurisjurandum|Juramânt
+!jurisjurandum|Juramânt
 juro|Jur
 jusjurandum|Juramânt
 jussio|Ordinea
 jussum|ordinea
-jussu|Pe ordinea de
+!jussu|Pe ordinea de
 justitia|De justitie, spiritul de justitie
 justitium|De sarbatori ale instantelor judecatoresti, a opri activitatea de justitie
 justus|Doar, echitabile, rezonabile
@@ -5818,7 +5818,7 @@ mendax|Mincinos
 mendicus|Nefericit, sarac; vama, i, m.: cersetor
 Menelaus|Ménélas
 Menenius|Menenius
-Menippaeus|Ménippée (nume de lucru de Varon: Satira Ménippée)
+!Menippaeus|Ménippée (nume de lucru de Varon: Satira Ménippée)
 mensa|Tabelul
 mensis|Luna
 menstrualis|Lunar revista (de durata de o luna)
@@ -9464,7 +9464,7 @@ Trinacrius|Siciliana (Sicilia = insula în trei puncte)
 trinoctialis|De trei nopţi
 trinoctium|Spaţiu de trei nopţi
 Trinovantes|Trinovantes (populat cu Brittany)
-trio|Trio (Roman porecla)
+Trio|Trio (Roman porecla)
 tripertito|În trei piese
 triplex|Triplu
 tripus|Le trepied
@@ -9731,7 +9731,7 @@ vastus|Spaţiu, pustiu, imi pare rau, vast
 vasum|Ca uas, uasis: vas, vas
 vas|Vaza
 vates|A viselor sale, poetul
-vatia|Vatia
+Vatia|Vatia
 vaticinatio|De predicţie, oracle, predicţie
 vaticinor|Prevestesc Nimic bun, petrecere rave
 Vatinius|Vatinius (om numele)

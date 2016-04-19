@@ -1,5 +1,5 @@
 !   lemmata.gl
-!Galego
+!Gallego
 !This file is part of COLLATINVS
 !COLLATINVS is free software; you can redistribute it and/or modify
 !it under the terms of the GNU General Public License as published by
@@ -524,7 +524,7 @@ alimonia|alimento, comida
 alioquin|polo demais
 alioqui|por outra banda
 alipilus|depilador
-alipta|masaxista, esteticista
+!alipta|masaxista, esteticista
 aliptes|masaxista, esteticista
 aliquamdiu|bastante tempo
 aliquam|cantidade máis ou menos grande
@@ -637,6 +637,7 @@ amplitudo|grandeza de proporcións, amplitude
 amplus|grande, importante
 amputo|cortar, amputar
 Amulius|Amulio, rei lendario da cidade de Alba, fillo de Procas e irmán de Numitor. Foi asasinado por Rómulo e Remo aos cales mandara botar ao Tíber ao nacer.
+!anagnosta|lector
 anagnostes|lector
 anas|pato
 anceps|1. de dúas cabezas 2. dobre 3. dubidoso, ambiguo, incerto
@@ -944,7 +945,7 @@ asellus|asno
 Asia|Asia.
 asinalis|referente ao asno
 asinarius|coidador de asnos)
-asina|Asina, sobrenome da gens Cornelia.
+Asina|Asina, sobrenome da gens Cornelia.
 asininus|referente ao asno
 Asinius|Asinio, nome dunha familia romana e en particular, Caio Asinio Polión, amigo de Augusto e protector de Virxilio, fundador da primeira biblioteca de Roma e autor dunha historia da guerra civil entre César e Pompeio, hoxe perdida.
 asinus|asno
@@ -3524,9 +3525,9 @@ exhortatio|exhortación, alento, estímulo
 exigo|1. facer saír, botar fóra, expulsar, repudiar 2. tirar, lanzar, afundir en 3. fig. incitar excitar, estimular 4. pasar (o tempo), discorrer, soportar, aguantar 5. vender (froitos, mercadorías), exportar 6. terminar, rematar, culminar 7. esixir, reclamar, cobrar 8. examinar, apreciar, xulgar 9. discutir, tratar, deliberar
 exiguitas|exigüidade, escaseza, insignificancia, miudeza
 exiguus|exiguo, escaso
-exilio|saltar fóra, lanzarse, elevarse
+!exilio|saltar fóra, lanzarse, elevarse
 exilis|delgado, fino, miúdo
-exilium|exilio, desterro
+!exilium|exilio, desterro
 eximie|excelentemente, eminentemente, extraordinariamente
 eximius|eximio, privilexiado, eminente
 eximo|1. sacar, quitar, tirar 2. eximir, excluír
@@ -3598,7 +3599,7 @@ expromo|1. sacar fóra, facer saír, facer aparecer, mostrar 2. mostrar, manifes
 expugnatio|asalto, expugnación
 expugno|tomar pola forza, asaltar, vencer
 expungo|1. facer desaparecer, borrar, 2. verificar, examinar
-expuo|cuspir
+!expuo|cuspir
 exquiro|procurar descubrir, indagar, investigar, informarse
 exquisite|con moito coidado, precisión
 exquisitus|distinguido, selecto, refinado, exquisito
@@ -3644,11 +3645,11 @@ exterritus|aterrado, cheo de medo
 exterus|exterior, externo, de fóra
 extimesco|asustarse, temer
 extimus|situado na extremidade, que está ao final, o máis afastado
-extinguo|extinguir, facer desaparecer, destruír, matar
+!extinguo|extinguir, facer desaparecer, destruír, matar
 extollo|levantar, erguer, elevar, exaltar
 extorqueo|dislocar, desencaixar, arrancar, obter pola forza
 extorris|expulsado (do seu país), desterrado
-exto|estar por riba de, sobresaír, amosarse, existir, ser visible
+!exto|estar por riba de, sobresaír, amosarse, existir, ser visible
 extraho|extraer, retirar, quitar
 extraneus|exterior, estranxeiro, de fóra
 extra|excepto que, a non ser que)
@@ -3656,7 +3657,7 @@ extremus|extremo, último
 extrilidus|1. moi pálido 2. sen medo, intrépido
 extrinsecus|de fóra, do exterior
 extrudo|poñer fóra, expulsar vilentamente, poñer na rúa
-extruo|acumular, amorear, levantar, construír, erixir
+!extruo|acumular, amorear, levantar, construír, erixir
 extundo|facer saír, conseguir con esforzo
 exturbo|1. facer saír á forza, expulsar 2. perturbar, trastornar
 exundatio|desbordamento
@@ -5092,7 +5093,7 @@ irascor|encolerizarse
 irate|con cólera
 iratus|encolerizado, irritado
 ira|ira, cólera
-Iris2|iris, arco da vella
+!iris2|iris, arco da vella
 Iris|Iris (deusa), arco da vella
 irreligiositas|impiedade
 irreparabilis|irreparable
@@ -5195,12 +5196,12 @@ jure|xustamente
 jurgiosus|disputador
 jurgium|querela, disputa, altercado
 jurisdictio|xurisdición
-jurisjurandum|xuramento
+!jurisjurandum|xuramento
 juro|xurar
 jusjurandum|xuramento
 jussio|orde
 jussum|orde
-jussu|baixo a orde de
+!jussu|baixo a orde de
 justitia|xusticia, espírito de xusticia
 justitium|suspensión da administración de xusticia, vacacións dos tribunais
 justus|xusto, equitativo, razoable
@@ -5815,7 +5816,7 @@ mendax|mentiroso
 mendicus|mendicante
 Menelaus|Menelao, rei de Esparta, home de Helena e irmán de Agamenón.
 Menenius|Menenio, nome e sobrenome romano de home.
-Menippaeus|a Sátiras Menipeas.
+!Menippaeus|a Sátiras Menipeas.
 mensa|mesa
 mensis|mes
 menstrualis|mensual
@@ -6070,7 +6071,7 @@ munitus|fortificado, reforzado, protexido, defendido, resgardado
 munusculum|regaliño
 munus|7|muner||eris, n. :1. oficio, función 2. obriga, cargo 3. beneficio 4. servizo prestado 5. favor, regalo 6. espectáculo público, combates de gladiadores
 muraena|morea (peixe)
-Murena|morea (peixe)
+murena|morea (peixe)
 murex|púrpura (molusco), púrpura (cor), puntas de ferro (trampa contra a cabalería)
 murmur|murmurio, rumor, ruxido
 murra|mirra (arxila fina)
@@ -9106,7 +9107,7 @@ suppositio|acción de poñer debaixo, suplantación, suposición
 suppostus|submiso
 supprimo|deter, conter, suprimir
 supra|enriba de, sobre, máis aló de
-!supremus|moi alto, supremo, último
+supremus|moi alto, supremo, último
 suptilitas|finura, sutileza; sobriedade, sinxeleza (de estilo)
 surdus|xordo
 surgo|levantarse, xurdir
@@ -9488,7 +9489,7 @@ Trinacrius|Siciliano (Sicilia = illa de tres promontorios)
 trinoctialis|de tres noites
 trinoctium|espazo de tres noites
 Trinovantes|Trinovantes (pobo da Bretaña)
-trio|Trión (sobrenome romano)
+Trio|Trión (sobrenome romano)
 tripertito|dividido en tres partes
 triplex|triple
 tripus|5|tripod||odis, m. :trípode
@@ -9760,7 +9761,7 @@ vastus|baleiro, deserto, despoboado; devastado, saqueado, arrasado
 vasum|vaso
 vas|vaso
 vates|adiviño, profeta; poeta (inspirado polos deuses)
-vatia|Vatia (nome de home)
+Vatia|Vatia (nome de home)
 vaticinatio|vaticinio, predición, profecía, oráculo, augurio
 vaticinor|adiviñar, predicir, profetizar
 Vatinius|Vatinio (nome de home)

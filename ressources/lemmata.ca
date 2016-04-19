@@ -1,5 +1,5 @@
 !   lemmata.ca
-!Català
+!Catalán
 !This file is part of COLLATINVS
 !COLLATINVS is free software; you can redistribute it and/or modify
 !it under the terms of the GNU General Public License as published by
@@ -518,7 +518,7 @@ alimonia|alimentació, nodriment
 alioquin|nogensmenys
 alioqui|altrament
 alipilus|depilatori d'aixelles
-alipta|massatgista, entrenador
+!alipta|massatgista, entrenador
 aliptes|massatgista, entrenador
 aliquamdiu|durant algun temps
 aliquam|multum : una gran quantitat, força, bastant
@@ -933,7 +933,7 @@ asellus|ase, asenet
 Asia|àsia
 asinalis|d'ase
 asinarius|d'ase (asinarius, i, m. : somerer)
-asina|Àsina
+Asina|Àsina
 asininus|d'ase
 Asinius|Asini
 asinus|ase
@@ -3489,9 +3489,9 @@ exhortatio|exhortació, encoratjament
 exigo|1 - expulsar, treure, fer fora; rebutjar; impel·lir, enfonsar. - 2 - exigir, reclamar, demanar. - 3 - acabar, acomplir; passar, travessar. - 4 - pesar, regular, determinar; fig. mesurar, ajustar, coformar; deliberar, determinar
 exiguitas|petitesa, exigüitat; escassetat, manca
 exiguus|petit, curt, estret; exigu, escàs
-exilio|(o exsilio) saltar, fer bots; llançar-se; fig. elevar-se
+!exilio|(o exsilio) saltar, fer bots; llançar-se; fig. elevar-se
 exilis|prim, magre; pobre, miserable
-exilium|(o exsilium) exili, confinament
+!exilium|(o exsilium) exili, confinament
 eximie|extraordinàriament, singularment
 eximius|excepcional, rar; extraordinari, singular, eximi
 eximo|treure, llevar, extreure; suprimir, esborrar; excloure, excepturar; ocupar, consumir
@@ -3562,7 +3562,7 @@ expromo|1 - (rar) treure, abocar. - 2 - mostrar, fer ús de, donar proves; dispo
 expugnatio|assalt
 expugno|assaltar, prendre; derrotar, vèncer
 expungo|punxar, picar; esborrar, cancel·lar; donar la baixa, llicenciar; comprovar
-expuo|(o exspuo) escopir
+!expuo|(o exspuo) escopir
 exquiro|encercar, indagar, esbrinar; interrogar, preguntar; tractar d'obtenir, demanar; descobrir, trobar
 exquisite|acuradament, refinadament
 exquisitus|refinat, exquisit; polit, acurat
@@ -3605,11 +3605,11 @@ exterritus|espantat, embogit
 exterus|exterior, extern; forà, estrany, estranger
 extimesco|espantar-se, esverar-se; témer
 extimus|extrem, darrer, últim
-extinguo|(o exstinguo) apagar, extingir; esborrar; consumir, destruir, dissipar
+!extinguo|(o exstinguo) apagar, extingir; esborrar; consumir, destruir, dissipar
 extollo|alçar, aixecar; exaltar, distingir; exagerar; (refle.) vantar-se, gloriejar-se
 extorqueo|- tr. - torçar, dislocar; turmentar, torturar; ; prendre, arrabassar; obtenir per la força
 extorris|exiliat, proscrit; expulsat, foragitat
-exto|(o exsto) sobresortir, sortir enfora, mantenir-se fora; elevar-se , alçar-se; mostrar-se, manifestar-se, constar (exstat: consta que; és segur que); subsistir, restar, existir.
+!exto|(o exsto) sobresortir, sortir enfora, mantenir-se fora; elevar-se , alçar-se; mostrar-se, manifestar-se, constar (exstat: consta que; és segur que); subsistir, restar, existir.
 extraho|treure, exctreure, arrencar; fer sortir, arrossegar; allargar, prolongar; consumir, deixar passar
 extraneus|de fora, estrany, foraster
 extra|fora de; a part, contra; excepte, llevat de.  adv. : fora, a l'exterior (extra quam : excepte que, a menys que)
@@ -3617,7 +3617,7 @@ extremus|extrem, darrer, últim
 extrilidus|molt pàl·lid
 extrinsecus|de fora, de l'exterior; fora, per fora, exteriorment
 extrudo|treure a empentes, fer fora
-extruo|(o exstruo) amuntegar, acumular; proveir, assortir; bastir, construir
+!extruo|(o exstruo) amuntegar, acumular; proveir, assortir; bastir, construir
 extundo|treure a cops; (fig.) arrencar
 exturbo|expulsar, proscriure
 exundatio|desbordament
@@ -4266,7 +4266,7 @@ hilaro|alegrar, animar, posar content
 hinc|d'ací, d'aquest lloc, des d'ací
 hio|badar-se, clivellar-se; badar, obrir la boca
 hippocentaurus|hipocentaure, centaure
-hippodromos|(o hippodromos) hipòdrom
+hippodromos|(o hippodromus) hipòdrom
 hircosus|de boc, amb ferum de boc
 hircus|boc, cabrot
 hirsutus|hirsut, pelut, eriçat
@@ -5103,12 +5103,12 @@ jure|segons el dret, justament
 jurgiosus|dur, querellant
 jurgium|disputa, altercat
 jurisdictio|jurisdicció
-jurisjurandum|jurament
+!jurisjurandum|jurament
 juro|jurar
 jusjurandum|jurament
 jussio|ordre, mandat
 jussum|ordre, mandat
-jussu|per ordre de
+!jussu|per ordre de
 justitia|justícia, dretura
 justitium|vacances dels tribunals, interrupció dels judicis
 justus|just, equitatiu, convenient
@@ -5713,7 +5713,7 @@ mendax|mentider; fals, enganyós
 mendicus|de mendigo, mendicant; us, i, m.:  mendicant, indigent
 Menelaus|Menelau (rei mític d'Esparta)
 Menenius|Meneni (nom de família)
-Menippaeus|de Menip, menipeu (títol d'una obra de Varró : Sàtires Menipees)
+!Menippaeus|de Menip, menipeu (títol d'una obra de Varró : Sàtires Menipees)
 mensa|mesa; ara, altar
 mensis|mes
 menstrualis|mensual (d'un mes de duració)
@@ -5962,7 +5962,7 @@ munitus|fortificat, reforçat, protegit
 munusculum|petit favor
 munus|1.  ofici, càrrec 2.  tasca, feina, obra  3. deure 4.  treball fet, servei acomplert  5.  regal, favor  6. joc, espectacle públic, combat de gladiadors
 muraena|morena (peix)
-Murena|morena (peix)
+murena|morena (peix)
 murex|múrex (mol·lusc del quan s'obtenia la porpra); porpra, púrpura ; múrex de ferro (tipus de trampa)
 murmur|remor, soroll, murmuri
 murra|mirra (perfum); murra (mineral)
@@ -8979,7 +8979,7 @@ suppositio|col·locació sota, incubació; suposició, suplantació
 suppostus|sotmès
 supprimo|aturar, fer cessar, contenir, reprimir, ofegar; enfonsar, esfondrar; distreure, ometre, amagar, suprimir
 supra|a sobre, més; prep. + ac. : sobre, damunt, al damunt de, més de, abans de, més enllà de
-!supremus|el més alt, darrer, últim; decisiu
+supremus|el més alt, darrer, últim; decisiu
 suptilitas|finor, agudesa, enginy, sagacitat, subtilesa, precisió, simplicitat
 surdus|sord, insensible; apagat, poc perceptible, ignorat
 surgo|aixecar-se, posar-se dret, llevar-se; pujar, dreçar-se, sobresortir; sorgir, brollar, créixer
@@ -9356,7 +9356,7 @@ Trinacrius|sicilià (Sicília = illa de tres angles)
 trinoctialis|de tres nits seguides
 trinoctium|tres nits seguides
 Trinovantes|els trinovants (poble de la Britània)
-trio|Trió (sobrenom romà)
+Trio|Trió (sobrenom romà)
 tripertito|en tres parts, per tres parts
 triplex|triple, tres alhora
 tripus|trípode, trespeus
@@ -9621,7 +9621,7 @@ vastus|buit, desert, abandonat, assolat, devastat, desolat; vast, immens, enorme
 vasum|com uas, uasis : vas, recipient, atuell, estri, bagatge (dels soldats)
 vas|vas, recipient, atuell, estri, bagatge (dels soldats)
 vates|endeví, profeta, poeta
-vatia|Vàcia
+Vatia|Vàcia
 vaticinatio|predicció, oracle, profecia, vaticini
 vaticinor|vaticinar, pronosticar, predir, profetitzar, parlar sota inspiració divina; desvariejar, delirar, dir extravagàncies
 Vatinius|Vatini (nom de família)
